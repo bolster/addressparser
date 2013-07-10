@@ -1,4 +1,4 @@
-
+require.define({'addressparser': function(exports, require, module) {
 // expose to the world
 module.exports = parser;
 
@@ -280,3 +280,4 @@ Tokenizer.prototype.checkChar = function(chr){
     this.node.value += chr;
     this.escaped = false;
 };
+}});
